@@ -1,71 +1,32 @@
-# Deploy this GEO/SEO blog on Vercel
+# Deploy Kenerate AI Blog on Vercel
 
-This folder is ready for a static Vercel deployment. There is no framework, package manager, or build command required.
+This repository is a static Vercel site. No framework, package manager or build command is required.
 
-## Production route
+## Production URL
 
-The article is served at:
+https://kenerateai-blog.vercel.app/
 
-`/blog/agent/audit-nsfw-ai-privacy-policy/`
+The Vercel property is intentionally self-canonicalized so it can be crawled and indexed independently while linking to https://kenerateai.com/ as the product source of truth.
 
-The canonical URL already embedded in the page is:
+## Public crawler files
 
-`https://crepal.ai/blog/agent/audit-nsfw-ai-privacy-policy/`
+- `/robots.txt`
+- `/sitemap.xml`
+- `/llms.txt`
+- `/llms-full.txt`
 
-For the canonical URL to be correct in production, connect `crepal.ai` (or the appropriate Crepal domain/project) to this Vercel deployment.
+## Deployment
 
-## Files Vercel serves
+The GitHub repository is connected to Vercel. A production deployment can be triggered after changes to the main branch, or manually from Vercel.
 
-- `/blog/agent/audit-nsfw-ai-privacy-policy/` → `index.html`
-- `/blog/agent/audit-nsfw-ai-privacy-policy/index.md` → `article.md`
-- `/llms.txt` → LLM discovery file
-- `/robots.txt` → crawler rules
-- `/sitemap.xml` → sitemap
+Framework preset: **Other**
+Build command: **none**
+Output directory: repository root
 
-## Deploy with the Vercel CLI
+## SEO / GEO rules
 
-From inside this folder:
-
-```bash
-npm install -g vercel
-vercel
-```
-
-Follow the prompts to create or link the Vercel project.
-
-When the preview looks correct, deploy production:
-
-```bash
-vercel --prod
-```
-
-## Deploy through GitHub + Vercel
-
-1. Create a GitHub repository.
-2. Put all files from this folder at the repository root.
-3. Push the repository.
-4. In Vercel, choose **Add New → Project**.
-5. Import the repository.
-6. Leave Framework Preset as **Other** if Vercel does not auto-detect a framework.
-7. Do not add a build command.
-8. Deploy.
-9. Add the production domain in Vercel project settings.
-
-## Important SEO note
-
-Do not publish the same page permanently on both a `*.vercel.app` URL and `crepal.ai` as separate canonical pages. The HTML canonical tag points to Crepal, so the Crepal domain should be the primary production URL.
-
-## Routing
-
-`vercel.json` redirects the deployment root to the article URL and rewrites the canonical article path to the static HTML file. It also adds content types for the Markdown, LLM, robots, and sitemap files plus basic security headers.
-
-## Crawler controls
-
-The included `robots.txt` currently permits both `OAI-SearchBot` and `GPTBot`. If you want ChatGPT Search discovery but do not want GPTBot training crawl, change only the GPTBot section to:
-
-```txt
-User-agent: GPTBot
-Disallow: /
-```
-
-Keep `OAI-SearchBot` allowed if ChatGPT Search visibility is desired.
+1. The Vercel homepage canonical must remain `https://kenerateai-blog.vercel.app/`.
+2. The Vercel `robots.txt` must reference `https://kenerateai-blog.vercel.app/sitemap.xml`.
+3. The Vercel sitemap should contain only URLs that actually belong to the Vercel property.
+4. Kenerate AI product URLs should be linked from page content and `llms.txt`; they should not be inserted into the Vercel sitemap because they belong to a different host.
+5. Keep KenerateAI product claims synchronized with the live product, Pricing, FAQ and Terms pages.
