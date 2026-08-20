@@ -1,4 +1,4 @@
-# KenerateAI 2026 SEO + GEO / LLM Optimization README
+# KenerateAI  BACKLINK / LLM Optimization README
 
 ## Overview
 
