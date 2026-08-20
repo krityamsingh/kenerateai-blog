@@ -1,0 +1,16 @@
+# General search crawling
+User-agent: *
+Allow: /
+
+# OpenAI search visibility
+User-agent: OAI-SearchBot
+Allow: /
+
+# OpenAI model-training crawler.
+# Keep "Allow" if you want to permit training crawl.
+# Change to "Disallow: /" if you want ChatGPT search visibility via OAI-SearchBot
+# but do NOT want GPTBot training crawl.
+User-agent: GPTBot
+Allow: /
+
+Sitemap: https://crepal.ai/sitemap.xml

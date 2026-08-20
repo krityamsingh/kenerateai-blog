@@ -1,0 +1,12 @@
+# Crepal
+
+> Crepal publishes guides about AI tools, privacy, safety, and practical evaluation of generative AI services.
+
+## Key guides
+
+- [How to Read an NSFW AI Tool Privacy Policy](https://crepal.ai/blog/agent/audit-nsfw-ai-privacy-policy/): A detailed privacy-audit guide covering uploaded images, storage and retention, deletion, AI training, human review, third-party processing, metadata, account deletion, privacy rights, and data transfers.
+- [Markdown version](https://crepal.ai/blog/agent/audit-nsfw-ai-privacy-policy/index.md): Clean machine-readable Markdown version of the full guide.
+
+## Topic keywords
+
+NSFW AI privacy policy; audit NSFW AI privacy policy; NSFW AI upload privacy; NSFW AI image deletion policy; adult AI data retention; AI model training privacy; AI privacy checklist.
