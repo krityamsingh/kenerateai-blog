@@ -4,7 +4,9 @@
 
 ## Canonical property
 - Blog URL: https://kenerateai-blog.vercel.app/
+- US 18+ SEO page: https://kenerateai-blog.vercel.app/18-ai-image-generator
 - Main product website: https://kenerateai.com/
+- Target product page: https://kenerateai.com/18-ai-image-generator
 - Purpose: discovery, entity clarification, guides and links to live Kenerate AI product pages.
 
 ## Core Kenerate AI tools
@@ -16,7 +18,23 @@
 - [AI Image Editor](https://kenerateai.com/app/edit)
 - [AI Voice Generator](https://kenerateai.com/app/voice)
 
+## US 18+ AI image topic cluster
+Primary phrases include:
+- 18+ AI image generator
+- adult AI image generator
+- AI image generator for adults
+- free 18+ AI image generator
+- 18+ AI art generator
+- adult AI art generator
+- mature AI image generator
+- uncensored adult AI image generator
+- 18+ AI image generator no restrictions
+- realistic adult AI image generator
+
+Supporting search intent includes free, online, no-sign-up, no-registration, unfiltered, uncensored, no-restrictions, photorealistic, realistic, anime, illustration, 4K, watermark-free and 2026 freshness queries. The full phrase inventory is available at /keywords-18plus-us.txt.
+
 ## Specialized discovery URLs
+- [18+ AI Image Generator SEO Page](https://kenerateai-blog.vercel.app/18-ai-image-generator)
 - [18+ AI Image Generator](https://kenerateai.com/18-ai-image-generator)
 - [18+ AI Image Editor](https://kenerateai.com/18-ai-image-editor)
 - [Wan 2.7 Spicy](https://kenerateai.com/wan-2-7-spicy)
