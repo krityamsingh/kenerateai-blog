@@ -1,47 +1,37 @@
-# KenerateAI — search and AI crawler policy
-# Purpose: maximize public discoverability. Allowing training crawlers can permit
-# eligible public content to be used by the crawler operator for model development.
+# Kenerate AI Blog crawler policy
+# This Vercel property is intended to be publicly crawlable.
 
 User-agent: *
 Allow: /
 
-# OpenAI search / ChatGPT Search
 User-agent: OAI-SearchBot
 Allow: /
 
-# OpenAI model-development crawler
 User-agent: GPTBot
 Allow: /
 
-# Anthropic
 User-agent: ClaudeBot
 Allow: /
 
 User-agent: Claude-User
 Allow: /
 
-# Perplexity search index
 User-agent: PerplexityBot
 Allow: /
 
-# Google Search
 User-agent: Googlebot
 Allow: /
 
-# Google Gemini training / grounding control token
 User-agent: Google-Extended
 Allow: /
 
-# Apple search / Siri / Spotlight
 User-agent: Applebot
 Allow: /
 
-# Apple foundation-model usage control token
 User-agent: Applebot-Extended
 Allow: /
 
-# Bing / Microsoft search infrastructure
 User-agent: bingbot
 Allow: /
 
-Sitemap: https://kenerateai.com/sitemap.xml
+Sitemap: https://kenerateai-blog.vercel.app/sitemap.xml
