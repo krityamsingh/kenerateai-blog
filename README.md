@@ -6,6 +6,14 @@ This project contains the SEO, GEO, LLM-discovery, crawler, metadata, keyword, s
 
 **Website:** https://kenerateai.com/
 
+# KenerateAI 2026 SEO + GEO / LLM Optimization README
+
+## Overview
+
+This project contains the SEO, GEO, LLM-discovery, crawler, metadata, keyword, structured-data, and Vercel optimization strategy for:
+
+**Website:** https://kenerateai.com/
+
 The goal is to improve visibility across:
 
 * Google Search
@@ -991,5 +999,8 @@ Conversational query coverage
 +
 Easy-to-extract answers
 ```
+
+That combination gives KenerateAI the strongest foundation for traditional SEO, GEO, answer engines, and AI-assisted search in 2026.
+
 
 That combination gives KenerateAI the strongest foundation for traditional SEO, GEO, answer engines, and AI-assisted search in 2026.
