@@ -1,6 +1,6 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "buildCommand": "node generate-faqs.js",
+  "buildCommand": "node generate-faqs.js && cp sitemap.xml dist/sitemap.xml",
   "outputDirectory": "dist",
   "installCommand": "",
   "cleanUrls": true,
