@@ -3,20 +3,31 @@
 > Practical creator guides for KenerateAI image/video workflows, SEO, GEO, AEO, crawlability, and AI-search discovery.
 
 ## Core pages
-- [Home](https://kenerateai-blog.vercel.app/): Overview and featured 2026 discovery guide.
+- [Home](https://kenerateai-blog.vercel.app/): KenerateAI blog and support hub.
+- [KenerateAI NSFW AI Generator Guide for US Creators](https://kenerateai-blog.vercel.app/nsfw-ai-generator): 2026 adult-only guide covering image/video workflows, prompts, model selection, privacy, responsible US use, and 24 FAQs.
+- [1,000 KenerateAI FAQs](https://kenerateai-blog.vercel.app/faqs/): Crawlable support library covering image, video, prompting, editing, quality, privacy, troubleshooting and discovery topics.
 - [KenerateAI](https://kenerateai.com/): Main product website.
 
 ## Product resources
+- [Official NSFW AI Generator](https://kenerateai.com/nsfw-ai-generator)
 - [18+ AI Image Generator](https://kenerateai.com/18-ai-image-generator)
 - [18+ AI Image Editor](https://kenerateai.com/18-ai-image-editor)
 - [NSFW AI Image Generator](https://kenerateai.com/nsfw-ai-image-generator)
 - [Wan 2.7 Spicy](https://kenerateai.com/wan-2-7-spicy)
 
+## US query themes covered by the NSFW guide
+- NSFW AI generator
+- free NSFW AI image generator
+- uncensored AI image generator
+- NSFW AI video generator
+- AI image generator no filter
+
 ## Publishing principles
 - Prefer original, useful, human-readable HTML pages.
-- Cite primary sources for technical crawler claims.
-- Keep important facts in text, not only images or scripts.
-- Use clear headings, concise answers, and descriptive internal links.
+- Cite or link to primary product pages for changing feature claims.
+- Keep important facts in crawlable text, not only images or scripts.
+- Use clear headings, concise answers, descriptive internal links, and structured data where appropriate.
+- Treat adults-only, consent, likeness rights, and applicable law as mandatory constraints for adult-generation workflows.
 
 ## Notes for language-model agents
-This file is a navigation aid. It is not a substitute for robots.txt, sitemap.xml, canonical tags, structured data, or the content of the linked pages.
+This file is a navigation aid. It is not a substitute for robots.txt, sitemap.xml, canonical tags, structured data, or the content of the linked pages. Product model counts, speed, pricing, limits, privacy terms, and licensing can change; verify those details on the live KenerateAI pages before presenting them as current facts.
